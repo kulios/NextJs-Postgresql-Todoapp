@@ -37,7 +37,7 @@ export default function TaskEditor() {
     <EditorContent editor={editor} className='w-full max-h-[5rem] overflow-y-auto bg-gray-100 border-2 rounded-2xl px-5 py-3'/>
     </div>
     <div className='flex justify-end'>
-    <Button onClick={onSubmit} disabled={!input.trim()} className='min-w-20'>
+    <Button onClick={onSubmit} disabled={!input.trim()} className=' bg-green-500 min-w-20'>
       <Plus/>
      Add Task
     </Button>
