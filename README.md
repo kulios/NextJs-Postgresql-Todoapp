@@ -11,5 +11,13 @@ using prisma ODM it connects to a database to store data for later use of the ap
 3. connect your database to the application using prisma.schema file.
 4. run the app using npm run dev
 
+
+### How does it work:
+# AddTask Button: Using this button will initialize a REST API to database to POST the context stored in Input Panel.
+# EditTask Button: Using this button pops up an editor allowing the user to change the context of the Task and sending a POST request to database.
+# DeleteTask Button: Using this button will send a DELETE request to database, deleting the Task.
+
+# NextCache: Using Next/cache with every request a revalidate function is called to use cache to refresh data in Page without reloading the page.
+
 ### Technologies used:
 NextJs - Prisma - Postgresql - tailwindcss - typescript - tiptap - zod
